@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{351E3064-5E5C-4AC4-AB1F-D4FDFF162749}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amdocs.Teams.App.Communicator.Common.Test", "Test\AmdocsCommunicator.Common.Test\Amdocs.Teams.App.Communicator.Common.Test.csproj", "{66145E1C-1E90-4FDE-90C2-F6BC651ECEF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amdocs.Teams.App.Communicator.Prep.Func.Test", "Test\AmdocsCommunicator.Prep.Func.Test\Amdocs.Teams.App.Communicator.Prep.Func.Test.csproj", "{22655C42-C7CF-41F4-AF44-8ABF9CD56DCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amdocs.Teams.App.Communicator.Test", "Test\AmdocsCommunicator.Test\Amdocs.Teams.App.Communicator.Test.csproj", "{CC9F2AB1-4FEE-4423-98B7-2284F03AD56F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amdocs.Teams.App.Communicator", "AmdocsCommunicator\Amdocs.Teams.App.Communicator.csproj", "{069CB3D8-552E-424B-9FE8-15BD639F0A33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amdocs.Teams.App.Communicator.Common", "AmdocsCommunicator.Common\Amdocs.Teams.App.Communicator.Common.csproj", "{164400E4-4651-4DBC-8D2C-098FFFABD0BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amdocs.Teams.App.Communicator.Data.Func", "AmdocsCommunicator.Data.Func\Amdocs.Teams.App.Communicator.Data.Func.csproj", "{77C53831-A581-4F32-BF74-D53C69B3E0A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amdocs.Teams.App.Communicator.Prep.Func", "AmdocsCommunicator.Prep.Func\Amdocs.Teams.App.Communicator.Prep.Func.csproj", "{42EA9F58-E95B-4C7D-B7EC-DDD1A67E6999}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amdocs.Teams.App.Communicator.Send.Func", "AmdocsCommunicator.Send.Func\Amdocs.Teams.App.Communicator.Send.Func.csproj", "{473FA565-2CC8-41AB-B3B4-1A4ED15A28AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amdocs.Teams.App.Communicator.Send.Func.Test", "Test\AmdocsCommunicator.Send.Func.Test\Amdocs.Teams.App.Communicator.Send.Func.Test.csproj", "{5F3EB7C7-3E12-419E-B95F-AB080A373032}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66145E1C-1E90-4FDE-90C2-F6BC651ECEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66145E1C-1E90-4FDE-90C2-F6BC651ECEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66145E1C-1E90-4FDE-90C2-F6BC651ECEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66145E1C-1E90-4FDE-90C2-F6BC651ECEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22655C42-C7CF-41F4-AF44-8ABF9CD56DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22655C42-C7CF-41F4-AF44-8ABF9CD56DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22655C42-C7CF-41F4-AF44-8ABF9CD56DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22655C42-C7CF-41F4-AF44-8ABF9CD56DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC9F2AB1-4FEE-4423-98B7-2284F03AD56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9F2AB1-4FEE-4423-98B7-2284F03AD56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9F2AB1-4FEE-4423-98B7-2284F03AD56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9F2AB1-4FEE-4423-98B7-2284F03AD56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069CB3D8-552E-424B-9FE8-15BD639F0A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069CB3D8-552E-424B-9FE8-15BD639F0A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069CB3D8-552E-424B-9FE8-15BD639F0A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069CB3D8-552E-424B-9FE8-15BD639F0A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164400E4-4651-4DBC-8D2C-098FFFABD0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164400E4-4651-4DBC-8D2C-098FFFABD0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164400E4-4651-4DBC-8D2C-098FFFABD0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164400E4-4651-4DBC-8D2C-098FFFABD0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C53831-A581-4F32-BF74-D53C69B3E0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C53831-A581-4F32-BF74-D53C69B3E0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C53831-A581-4F32-BF74-D53C69B3E0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C53831-A581-4F32-BF74-D53C69B3E0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EA9F58-E95B-4C7D-B7EC-DDD1A67E6999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EA9F58-E95B-4C7D-B7EC-DDD1A67E6999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EA9F58-E95B-4C7D-B7EC-DDD1A67E6999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EA9F58-E95B-4C7D-B7EC-DDD1A67E6999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473FA565-2CC8-41AB-B3B4-1A4ED15A28AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473FA565-2CC8-41AB-B3B4-1A4ED15A28AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473FA565-2CC8-41AB-B3B4-1A4ED15A28AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473FA565-2CC8-41AB-B3B4-1A4ED15A28AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3EB7C7-3E12-419E-B95F-AB080A373032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3EB7C7-3E12-419E-B95F-AB080A373032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3EB7C7-3E12-419E-B95F-AB080A373032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3EB7C7-3E12-419E-B95F-AB080A373032}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66145E1C-1E90-4FDE-90C2-F6BC651ECEF7} = {351E3064-5E5C-4AC4-AB1F-D4FDFF162749}
+		{22655C42-C7CF-41F4-AF44-8ABF9CD56DCB} = {351E3064-5E5C-4AC4-AB1F-D4FDFF162749}
+		{CC9F2AB1-4FEE-4423-98B7-2284F03AD56F} = {351E3064-5E5C-4AC4-AB1F-D4FDFF162749}
+		{5F3EB7C7-3E12-419E-B95F-AB080A373032} = {351E3064-5E5C-4AC4-AB1F-D4FDFF162749}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {082E8AB4-A506-4AFC-B113-A87C1C31EA00}
+	EndGlobalSection
+EndGlobal
